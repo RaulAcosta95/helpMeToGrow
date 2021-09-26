@@ -1,0 +1,40 @@
+a{
+    display: block;
+    text-decoration: none;
+
+    background-color: rgb( 0, 46, 134);
+    color: rgb(247, 247, 247);
+
+    border: ridge;
+    border-color: rgb(17, 33, 106);
+
+    height: 60px;
+    width: 200px;
+
+    font-size: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+    -webkit-box-shadow: 4px 4px 31px 0px rgba(15, 15, 15,0.75);
+    -moz-box-shadow: 4px 4px 31px 0px rgba(15, 15, 15,0.75);
+    box-shadow: 4px 4px 31px 0px rgba(15, 15, 15,0.75);
+    transition: 0.5s;
+}
+a:hover, a:active{
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(15, 15, 15,0.75);
+-moz-box-shadow: 4px 4px 0px 0px rgba(15, 15, 15,0.75);
+box-shadow: 4px 4px 0px 0px rgba(15, 15, 15,0.75);
+transition: 0.5s;
+}
+@media (min-width: 0px) and (max-width: 768px){
+    #enlacePaypal{
+        display: flex;
+        justify-content: center;
+    }
+}

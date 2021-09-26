@@ -1,0 +1,18 @@
+/*  
+Si puedes leer esto te agradezco por tu voto de confianza 
+Soy Raúl Acosta, desarrollador web 
+Trabajo arduamente para sacar adelante a mi familia 
+Esta es la página html del sitio 
+*/
+body{
+    background-color: rgb(247, 247, 247);
+}
+h1,h2,p, a{
+    font-family: monospace;
+    color: rgb(15, 15, 15);
+}
+@media (min-width: 0px) and (max-width: 768px){
+    h1,h2,p, a{
+        text-align: center;
+    }
+}

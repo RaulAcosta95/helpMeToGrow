@@ -6,13 +6,16 @@ Esta es la página html del sitio
 */
 body{
     background-color: rgb(247, 247, 247);
+    transition: 0.5s;
 }
 h1,h2,p, a{
     font-family: monospace;
     color: rgb(15, 15, 15);
+    transition: 0.5s;
 }
 @media (min-width: 0px) and (max-width: 768px){
     h1,h2,p, a{
         text-align: center;
+
     }
 }

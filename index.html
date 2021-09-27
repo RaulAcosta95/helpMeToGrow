@@ -11,6 +11,7 @@
     <title>Help Me to Grow Raul Acosta</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/botonPaypal.css">
+    <link rel="stylesheet" href="./css/switchIdioma.css">
 </head>
 <body>
     <header>
@@ -18,7 +19,16 @@
         <h2>Ayudame a crecer</h2>
     </header>
     <section>
-        <article>
+        <article id="switchArticle">
+            <p>Spanish Español / English Inglés</p>
+            <div id="switchArticleDiv">
+                <label class="switch">
+                    <input type="checkbox" id="inputSwitch" onclick="cambiaIdioma()">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </article>
+        <article id="infoSpanish">
             <p>Hola, mi nombre es Raúl.</p>
             <p>Creo que la honestidad es la única forma de mandar un mensaje.</p>
             <p>
@@ -34,15 +44,17 @@
             <p>
                 Te agradezco el tiempo que dedicaste a leer esto. <br>
                 El botón es para ir a Paypal. <br>
-                Si me vas a depositar, ten en cuenta que no ofrezco algún servicio a cambio. <br>
+                Si enviarás tu ayuda, ten en mente que no puedo ofrecerte un servicio a cambio. <br>
                 No quisiera que alguien se sintiera estafado. <br>
                 De nuevo te agradezco y te mando un cordial saludo. <br>
             </p>
         </article>
+        <article id="infoEnglish"></article>
         <article id="enlacePaypal">
             <a target="_blank" href="https://paypal.me/AAcostaRojas?locale.x=es_XC">
             PAYPALME</a>
         </article>
     </section>
+    <script src="./js/switchLanguage.js"></script>
 </body>
 </html>
